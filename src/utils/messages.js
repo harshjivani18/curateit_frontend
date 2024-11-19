@@ -1,0 +1,14 @@
+export const FIELD_REQUIRED         = "This field is required.";
+export const NO_SPACES              = "Spaces are not allowed.";
+export const NO_SPECIAL_CHARS       = "Special Characters are not allowed.";
+export const LESS_THAN_15_CHARS     = "Username must be less than 15 Characters.";
+export const CONFRIM_MATCH          = "Confirm password needs to match password";
+export const VALUE_TOO_SHORT        = "Given value is too short";
+export const VALUE_TOO_LONG         = "Given value is too long";
+export const EMAIL_NOT_VALID        = "Email is not valid";
+export const INVALID_VALUE          = "Invalid value";
+export const INVALID_NAME           = "Name must not contain space or any symbols";
+export const INVALID_QUANTITY       = "Invalid Quantity";
+export const INVALID_QUANTITY_MAX   = "Quantity should be less than < 100000";
+export const URL_REQUIRED           = "Please provide url";
+export const INVALID_URL            = "Please provide valid url. Ensure it has protocol (https) and hostname (https://www.example.com).";

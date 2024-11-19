@@ -1,0 +1,35 @@
+.mood-code-card {
+  width: 100%;
+}
+
+.mood-word-wrap {
+  word-wrap: break-word;
+}
+
+.mood-invert-filter {
+  filter: invert(1);
+}
+
+.card-actions {
+  display: flex;
+}
+
+.card-actions ul > li:first-child span > span {
+  border-radius: 50% 0% 0% 50%;
+}
+
+.card-actions ul > li:last-child span > span {
+  border-radius: 0% 50% 50% 0%;
+}
+
+.hover-target {
+  display: none;
+}
+
+.card-actions:hover .hover-target {
+  display: flex;
+}
+
+/* .card-actions:hover .hoverImg {
+  display: none;
+} */

@@ -1,0 +1,17 @@
+.ctCollectionWallpaper {
+    margin-left: 25px;
+    z-index: -1;
+    top: 0px;
+}
+
+.ctCollectionWallpaperMobile {
+    z-index: -1;
+}
+
+.ctPublicLoader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}

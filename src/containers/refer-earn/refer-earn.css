@@ -1,0 +1,95 @@
+/* REFER AND EARN PAGES */
+/* ? REFER */
+.border-Refer {
+    @apply border-[#347AE2]
+}
+
+.icon-Refer {
+    @apply text-[#347AE2]
+}
+
+.bg-Refer {
+    @apply bg-[#E5F0FF]
+    /* @apply bg-[#FFFFFF] */
+}
+
+.text-Refer {
+    @apply text-[#347AE2]
+}
+
+/* ? EARN */
+.border-Earn {
+    @apply border-[#3AA8A1]
+}
+
+.icon-Earn {
+    @apply text-[#3AA8A1]
+}
+
+.bg-Earn {
+    @apply bg-[#EFFCF6]
+}
+
+.text-Earn {
+    @apply text-[#3AA8A1]
+}
+
+/* ? ACTIVITY */
+.border-Activity {
+    @apply border-[#B85197]
+}
+
+.icon-Activity {
+    @apply text-[#B85197]
+}
+
+.bg-Activity {
+    @apply bg-[#FFF0F5]
+}
+
+.text-Activity {
+    @apply text-[#B85197]
+}
+
+/* ? LOYALTY */
+.border-Loyalty {
+    @apply border-[#8C2FEA]
+}
+
+.icon-Loyalty {
+    @apply text-[#8C2FEA]
+}
+
+.bg-Loyalty {
+    @apply bg-[#EFE3FF]
+}
+
+.text-Loyalty {
+    @apply text-[#8C2FEA]
+}
+
+/* ? CLAIMED */
+.border-Claimed {
+    @apply border-[#3DAC74]
+}
+
+.bg-Claimed {
+    @apply bg-[#EDFFE7]
+}
+
+.text-Claimed {
+    @apply text-[#3DAC74]
+}
+
+/* ? DISABLED */
+.border-Disabled {
+    @apply border-[#97A0B5]
+}
+
+.bg-Disabled {
+    @apply bg-[#EBEFF4]
+}
+
+.text-Disabled {
+    @apply text-[#74778B]
+}

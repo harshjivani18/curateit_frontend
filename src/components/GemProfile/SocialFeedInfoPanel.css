@@ -1,0 +1,21 @@
+.info {
+    color: grey;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.count{
+    color: black;
+}
+
+.icon {
+    width: 100px;
+    height: 90px;
+}
+
+.wrap-words {
+    word-break: break-word;
+}

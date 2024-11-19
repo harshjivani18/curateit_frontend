@@ -1,0 +1,24 @@
+.ct-link-usage-text {
+    font-weight: bold;
+    color: gray;
+}
+
+.ct-visibility-usage {
+    /* visibility: visible; */
+    display: block;
+}
+
+.ct-visibility-usage-hidden {
+    /* visibility: hidden; */
+    display: none;
+}
+
+.ct-usage-count {
+    min-width: 35px;
+    text-align: right;
+}
+
+.ct-types-section {
+    display: flex;
+    align-items: center;
+}

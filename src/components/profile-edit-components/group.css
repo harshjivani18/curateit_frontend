@@ -1,0 +1,8 @@
+.grp-name {
+    width: 50%;
+}
+
+.grp-members {
+    justify-items: center;
+    align-items: center;
+}

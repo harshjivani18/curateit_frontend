@@ -1,0 +1,109 @@
+
+.Calendar-calendar--MGIxO {
+    display: flex;
+    flex: 1 1;
+    flex-direction: column
+}
+
+.Calendar-calendar--MGIxO table {
+    border-spacing: 5px !important;
+    width: 100%
+}
+
+.Calendar-calendar--MGIxO td {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: var(--base800);
+    cursor: pointer;
+    height: 40px;
+    text-align: center;
+    vertical-align: center;
+    width: 40px;
+}
+
+.Calendar-calendar--MGIxO td:hover {
+    background: var(--base75);
+    border: 1px solid var(--base300)
+}
+
+.Calendar-calendar--MGIxO td.Calendar-faded--MjE4Y {
+    color: var(--base500)
+}
+
+.Calendar-calendar--MGIxO td.Calendar-selected--MzBjM {
+    border: 1px solid var(--base600);
+    font-weight: 600
+}
+
+.Calendar-calendar--MGIxO td.Calendar-selected--MzBjM:hover {
+    background: transparent
+}
+
+.Calendar-calendar--MGIxO td.Calendar-disabled--YWE3M {
+    background: var(--base75);
+    color: var(--base400)
+}
+
+.Calendar-calendar--MGIxO td.Calendar-disabled--YWE3M:hover {
+    background: var(--base75);
+    border-color: transparent;
+    cursor: default
+}
+
+.Calendar-calendar--MGIxO td.Calendar-faded--MjE4Y.Calendar-disabled--YWE3M {
+    background: var(--base100)
+}
+
+.Calendar-header--ODcyN {
+    align-items: center;
+    display: flex;
+    font-size: var(--font-size-md);
+    font-weight: 700;
+    justify-content: space-evenly;
+    line-height: 40px
+}
+
+.Calendar-body--YmY1N {
+    display: flex
+}
+
+.Calendar-selector--YWVjN {
+    cursor: pointer
+}
+
+.Calendar-pager--MmQ1M {
+    display: flex;
+    flex: 1 1
+}
+
+.Calendar-pager--MmQ1M button {
+    align-self: center
+}
+
+.Calendar-middle--YzY1Y {
+    flex: 1 1
+}
+
+.Calendar-left--YWJiZ,.Calendar-right--OGYzN {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.Calendar-left--YWJiZ svg {
+    transform: rotate(90deg)
+}
+
+.Calendar-right--OGYzN svg {
+    transform: rotate(-90deg)
+}
+
+.Calendar-icon--OThlY {
+    margin-left: 10px
+}
+
+@media only screen and (max-width: 992px) {
+    .Calendar-calendar--MGIxO table {
+        max-width:calc(100vw - 30px)
+    }
+}

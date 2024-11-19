@@ -1,0 +1,21 @@
+.ct-list-icon {
+    border: 2px solid #f0f0f0;
+    padding: 7px;
+    background: white;
+    border-radius: 5px;
+}
+
+.ct-list-icon .icon {
+    margin-right: 0px;
+}
+
+.ct-mr-0 {
+    margin-right: 0px !important;
+}
+
+.ct-picker-inner-title {
+    font-weight: bold;
+    color: rgba(55, 53, 47, 0.65);
+    padding: 17px;
+    margin-top: 10px;
+}

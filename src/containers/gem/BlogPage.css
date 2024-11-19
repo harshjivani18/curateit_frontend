@@ -1,0 +1,16 @@
+.editor-top {
+    padding-top: calc(100vh - calc(100vh - 14vh));
+}
+
+.ct-editor-max-width {
+    max-width: 70vw;
+    width: 70vw;
+}
+
+.ct-editor-title {
+    width: 55vw;
+}
+
+.ct-blog-edit-title {
+    margin-bottom: 0px !important;
+}

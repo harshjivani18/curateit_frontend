@@ -1,0 +1,34 @@
+.login-btn-container {
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #347ae2;
+}
+.login-btn{
+    height: 45px;
+    width: 310px;
+}
+
+.button {
+    border: none;
+    color: white;
+    /* padding: 12px 16px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  .btn-padding-12 {
+    padding: 12px 16px;
+  }
+  .primary {background-color: #347AE2;} /* Blue */

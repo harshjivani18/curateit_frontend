@@ -1,0 +1,1 @@
+export const FETCH_ALL_PLANS = "FETCH_ALL_PLANS";

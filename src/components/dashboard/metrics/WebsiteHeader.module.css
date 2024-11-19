@@ -1,0 +1,23 @@
+.header {
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  overflow: hidden;
+  height: 100px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  min-height: 0;
+}

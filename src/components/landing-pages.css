@@ -1,0 +1,99 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+    #landing-page-iframe {
+        left: 0;
+        top: 0;
+        height: calc(100vw/1.77);
+        width: 90vw;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    #landing-page-iframe {
+        left: 0;
+        top: 0;
+        height: calc(100vw/1.77);
+        width: 90vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #landing-page-iframe {
+        left: 0;
+        top: 0;
+        height: 300px;
+        width: 555px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #landing-page-iframe {
+        left: 0;
+        top: 0;
+        height: 350px;
+        width: 655px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #landing-page-iframe {
+        left: 0;
+        top: 0;
+        height: 441px;
+        width: 755px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #landing-page-iframe {
+        left: 0;
+        top: 0;
+        height: 441px;
+        width: 755px;
+    }
+}
+
+/* TABS MANAGER SCROLL SECTION */
+.fade-in-image {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* BUTTONS */
+.desktop-btn {
+    @apply py-[16px] px-[32px] rounded-[8px] hidden md:flex flex-row items-center justify-center gap-[8px] bg-[#105FD3];
+
+}
+
+.desktop-btn a {
+    @apply text-[#FFFFFF] text-[16px] leading-[24px] font-semibold text-center flex flex-row items-center justify-center gap-[8px];
+}
+
+.mob-btn {
+    @apply px-[32px] py-[12px] flex md:hidden flex-row items-center justify-center gap-[8px] rounded-[8px] bg-[#105FD3];
+}
+
+.mob-btn-rounded {
+    @apply px-[32px] py-[12px] flex md:hidden flex-row items-center justify-center gap-[8px] rounded-full bg-[#105FD3];
+}
+
+.mob-btn a {
+    @apply text-[#FFFFFF] text-[16px] leading-[24px] font-semibold text-center flex flex-row items-center justify-center gap-[8px];
+}
+
+.mob-btn-rounded a {
+    @apply px-[32px] py-[12px] flex md:hidden flex-row items-center justify-center gap-[8px] rounded-full bg-[#105FD3] flex flex-row items-center justify-center gap-[8px];
+}

@@ -1,0 +1,234 @@
+/* @tailwind base;
+@tailwind components; */
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
+}
+
+/* body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+/* body {
+    @apply font-inter
+}
+
+ Deafult spacing for pages in common 
+.page-layout {
+    @apply w-[90%] lg:w-[85%] xl:w-[1250px] mx-auto
+} */
+
+.hero-asset-section {
+    position: relative;
+}
+
+.blob:before {
+    position: absolute;
+    top: -20%;
+    right: -20%;
+    z-index: -10;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 9999px;
+    --tw-blur: blur(35px);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+    content: "";
+    background: linear-gradient(147.72deg, rgba(31, 117, 255, 0.97) 22.38%, rgba(14, 117, 226, 0.35) 80.64%);
+}
+
+@media only screen and (min-width: 600px) {
+    .blob:after {
+        position: absolute;
+        top: -20%;
+        right: -20%;
+        z-index: -10;
+        height: 1rem;
+        width: 1rem;
+        border-radius: 9999px;
+        --tw-blur: blur(35px);
+        filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+        content: "";
+        background: linear-gradient(147.72deg, rgba(31, 117, 255, 0.97) 22.38%, rgba(14, 117, 226, 0.35) 80.64%);
+    }
+}
+
+.bg-blob:after {
+    position: absolute;
+    top: 22%;
+    right: -10%;
+    z-index: 0;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 9999px;
+    --tw-blur: blur(35px);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+    content: "";
+    background: linear-gradient(147.72deg, rgba(31, 117, 255, 0.25) 22.38%, rgba(14, 117, 226, 0.35) 80.64%);
+}
+
+.move-up-transition {
+    @apply subpixel-antialiased transition ease-out delay-150 hover:-translate-y-1
+}
+
+.box-shadow-sm {
+    box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+}
+
+.box-shadow-lg {
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
+
+.flex-centered {
+    @apply flex flex-row items-center justify-center
+}
+
+/* .pricing-comparison-table td {
+    padding-left: 20px;
+} */
+
+.pricing-comparison-table tr td:nth-child(3), .pricing-comparison-table tr td:nth-child(5) {
+    background-color: #F8FBFF;
+}
+
+.pricing-feature-block:nth-child(even) {
+    background-color: #F8FBFF;
+}
+
+/* ? PROGRESS BAR STYLING */
+.wrapper {
+    border: 3px solid blue;
+}
+
+.container {
+    background-color: pink;
+}
+
+.barCompleted {
+    background-color: lightblue;
+    width: 80%;
+}
+
+.label {
+    display: none;
+}
+
+/* REFER AND EARN PAGES */
+/* ? REFER */
+.border-Refer {
+    @apply border-[#347AE2]
+}
+
+.icon-Refer {
+    @apply text-[#347AE2]
+}
+
+.bg-Refer {
+    @apply bg-[#E5F0FF]
+}
+
+.text-Refer {
+    @apply text-[#235197]
+}
+
+/* ? EARN */
+.border-Earn {
+    @apply border-[#3AA8A1]
+}
+
+.icon-Earn {
+    @apply text-[#3AA8A1]
+}
+
+.bg-Earn {
+    @apply bg-[#EFFCF6]
+}
+
+.text-Earn {
+    @apply text-[#004440]
+}
+
+/* ? ACTIVITY */
+.border-Activity {
+    @apply border-[#B85197]
+}
+
+.icon-Activity {
+    @apply text-[#B85197]
+}
+
+.bg-Activity {
+    @apply bg-[#FFF0F5]
+}
+
+.text-Activity {
+    @apply text-[#620042]
+}
+
+/* ? LOYALTY */
+.border-Loyalty {
+    @apply border-[#8C2FEA]
+}
+
+.icon-Loyalty {
+    @apply text-[#8C2FEA]
+}
+
+.bg-Loyalty {
+    @apply bg-[#EFE3FF]
+}
+
+.text-Loyalty {
+    @apply text-[#8C2FEA]
+}
+
+/* ? CLAIMED */
+.border-Claimed {
+    @apply border-[#3DAC74]
+}
+
+.bg-Claimed {
+    @apply bg-[#EDFFE7]
+}
+
+.text-Claimed {
+    @apply text-[#3DAC74]
+}
+
+/* ? DISABLED */
+.border-Disabled {
+    @apply border-[#97A0B5]
+}
+
+.bg-Disabled {
+    @apply bg-[#ABB7C9]
+}
+
+.text-Disabled {
+    @apply text-[#74778B]
+}

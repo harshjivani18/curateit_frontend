@@ -1,0 +1,14 @@
+.ct-transaction-popup {
+    position: absolute;
+    z-index: 9999999999999;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+}
+
+.ct-transaction-alert-box {
+    padding: 7px;
+    width: 500px;
+}

@@ -1,0 +1,144 @@
+.ct-main-segment {
+    /* width: 380px; */
+    padding: 4px;
+    border: 0.4px solid #ABB7C9;
+    border-radius: 5px;
+}
+
+.ct-main-segment > .ant-segmented-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ct-main-segment > .ant-segmented-group > .ant-segmented-item {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+}
+
+.ct-main-segment > .ant-segmented-group > .ant-segmented-item-selected {
+    border-radius: 4px;
+    color: #347AE2;
+    border-color: #78A6EC;
+    border: 0.4px solid;
+}
+
+.ct-ai-api-key-label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.36px;
+    color: #347AE2;
+}
+
+.ct-ai-api-key-button {
+    color: #347AE2;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.36px;
+    display: flex;
+    align-items: center;
+}
+
+.ct-ai-api-key-title {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19.36px;
+}
+
+.ct-ant-ai-input-search {
+    margin: 8px;
+}
+
+.ct-ant-ai-select-btn {
+    color: #347AE2;
+    font-weight: 500;
+}
+
+.ct-ai-prompts-label {
+    font-weight: 500;
+    font-size: 20px;
+    color: #292B38;
+    line-height: 24.2px;
+}
+
+.ct-prompt-add-btn {
+    border: 1px solid #B8D4FE;
+    border-radius: 8px;
+    color: #347AE2;
+    background-color: #E5F0FF;
+}
+
+.ct-prompt-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.ct-prompt-item {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+    padding: 18px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 0 calc(1px / var(--scale-x, 1)) rgba(63, 63, 68, 0.05),
+      0 1px calc(3px / var(--scale-x, 1)) 0 rgba(34, 33, 81, 0.15);
+    border-radius: calc(4px / var(--scale-x, 1));
+    box-sizing: border-box;
+    list-style: none;
+    color: #333;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.ct-drag-handle {
+    display: flex;
+    width: 12px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    touch-action: none;
+    cursor: var(--cursor, pointer);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    appearance: none;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.ct-drag-handle:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.ct-drag-handle:focus-visible {
+    box-shadow: 0 0px 0px 2px #4c9ffe;
+}
+
+.ct-drag-handle svg {
+    flex: 0 0 auto;
+    margin: auto;
+    height: 100%;
+    overflow: visible;
+    fill: #919eab;
+}
+
+.ct-ai-trigger-label {
+    font-weight: 500;
+    font-size: 14px;
+    color: #4B4F5D;
+    line-height: 21.78px;
+}
+
+.ct-ai-ant-select-box > .ant-select-selector > .ant-select-selection-item > div > div > .ct-ant-selected-btn {
+    display: none;
+}
+  

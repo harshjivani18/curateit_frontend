@@ -1,0 +1,21 @@
+.ant-tree .ant-tree-node-content-wrapper .ant-tree-iconEle {
+    margin-top: 5px;
+}
+
+.ant-tree .ant-tree-node-content-wrapper .ant-tree-iconEle {
+    line-height: 10px;
+}
+
+.folder-tree-structure .ant-tree-list .ant-tree-list-holder-inner .ant-tree-treenode {
+    width: 100%;
+}
+
+.folder-tree-structure .ant-tree-list .ant-tree-list-holder-inner .ant-tree-treenode .ant-tree-node-content-wrapper {
+    width: 100%;
+}
+
+.ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    background-color: #E5F0FF;
+    border-radius: 8px;
+    padding-bottom: 4px;
+}

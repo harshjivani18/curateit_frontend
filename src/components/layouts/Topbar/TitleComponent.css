@@ -1,0 +1,21 @@
+.ct-collection-title {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 52px;
+    /* margin-top: 1.19em; */
+    letter-spacing: -0.011em;
+    margin-bottom: -0.27em;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ct-collection-title img {
+    margin-right: 10px;
+    width: 2rem !important;
+    height: 2rem !important;
+    float: left;
+}
+
+.ct-collection-title-container {
+    margin-bottom: 32px;
+}

@@ -1,0 +1,14 @@
+export const LOGIN                              = "LOGIN"
+export const SIGNUP                             = "SIGNUP"
+export const EMAIL_VERIFICATION                 = "EMAIL_VERIFICATION"
+export const SET_USER_DEFAULT_CURATEIT          = "SET_USER_DEFAULT_CURATEIT"
+export const SET_AFTER_USER_CREATE_OPERATION    = "SET_AFTER_USER_CREATE_OPERATION"
+export const FORGOT_PASSWORD                    = "FORGOT_PASSWORD"
+export const RESET_PASSWORD                     = "RESET_PASSWORD"
+export const DISABLE_MSG                        = 'DISABLE_MSG';
+export const SOCIAL_LOGIN_CALLBACK              = 'SOCIAL_LOGIN_CALLBACK';
+export const SET_SOCIAL_LOGIN_DETAILS           = 'SET_SOCIAL_LOGIN_DETAILS';
+export const SET_SOCIAL_LOGIN_LOADER            = "SET_SOCIAL_LOGIN_LOADER"
+export const AUTO_GENERATE_SEO_DETAILS          = "AUTO_GENERATE_SEO_DETAILS"
+export const VERIFY_EMAIL                       = "VERIFY_EMAIL"
+export const RESEND_VERIFICATION_EMAIL          = "RESEND_VERIFICATION_EMAIL"

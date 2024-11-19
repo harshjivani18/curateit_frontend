@@ -1,0 +1,10 @@
+export const GET_ALL_COMMENTS       = "GET_ALL_COMMENTS";
+export const GET_MORE_COMMENTS      = "GET_MORE_COMMENTS";
+export const GET_SINGLE_COMMENTS    = "GET_SINGLE_COMMENTS";
+export const ADD_COMMENT            = "ADD_COMMENT";
+export const ADD_COMMENT_REPLY      = "ADD_COMMENT_REPLY";
+export const EDIT_COMMENT           = "EDIT_COMMENT";
+export const DELETE_COMMENT         = "DELETE_COMMENT";
+export const REMOVE_COMMENT         = "REMOVE_COMMENT";
+export const VOTE_COMMENT           = "VOTE_COMMENT";
+export const SHOW_REPLIES           = "SHOW_REPLIES";

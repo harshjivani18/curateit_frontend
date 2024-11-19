@@ -1,0 +1,13 @@
+.profile-card-name-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-card-name {
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
